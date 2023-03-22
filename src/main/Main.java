@@ -29,12 +29,20 @@ public class Main {
             }while(idade!=0);
             System.out.println(soma / total);
             */
-            System.out.println("Informe a quantidade de Repetições: ");
+          /*  System.out.println("Informe a quantidade de Repetições: ");
             cont = grava.nextInt();
             while(soma < cont){
                 soma++;
                 System.out.println(soma +" Isso é um teste");
             }
+*/
+          
+          while(cont < 1000){
+              cont++;
+              soma += cont;
+              System.out.println(soma);
+              
+          }
 }
     
 }
